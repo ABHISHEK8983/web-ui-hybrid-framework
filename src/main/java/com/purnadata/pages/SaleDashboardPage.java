@@ -26,5 +26,8 @@ public class SaleDashboardPage {
 	
 	@FindBy (xpath="(//b[@class='arrow']/preceding-sibling::a)[10]")
 	public WebElement link_preforma;
+	
+	@FindBy (xpath="//h4[text()='Sale Invoice Details']")
+	public WebElement text_page;
 
 }
